@@ -1,15 +1,15 @@
 .cart-items {
-    background-color: gold;
-    width: 70%;
+    background-color: #ffffff;
+    width: 100%;
     margin: 30px auto;
     text-align: center;
-    border: black 2px solid;
+    border:  2px solid #5a5d88;
 }
 
 .cart-item-image {
     width: 100%;
-    max-width: 240px;
-    max-height: 280px;
+    width: 280px;
+   height: 240px;
     display: block;
     object-fit: cover;
     border-radius: 15px;
@@ -23,26 +23,26 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #5a5d88;
     border-radius: 25px;
-    background-color: royalblue;
+    background-color: #ffffff;
     color: white;
     font-weight: bold;
     font-size: 24px;
     font-family: Verdana;
-    border: 5px solid white;
+    border: 2px solid #5a5d88;
 }
 
 .cart-items-header {
     padding: 20px;
-    border-bottom: black 2px solid;
-    color: black;
+    border:  2px solid #5a5d88;
+    color: #ffffff;
     font-weight: bold;
     font-size: 32px;
     font-family: Verdana;
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: uppercase;
-    background-color: gold;
+    background-color:#5a5d88;
 }
 
 .cart-items-empty {
@@ -55,13 +55,14 @@
 
 .cart-item-name {
     max-width: 300px;
+    color: #5a5d88;
 }
 
 .total-price {
-    border-top: 2px solid black;
+    border-top: 2px solid #5a5d88;
     display: flex;
     justify-content: space-between;
-    background-color: gold;
+    background-color: #a3a6c7;
     color: white;
     font-weight: bold;
     font-size: 28px;
@@ -72,7 +73,7 @@
 
 .cart-items-add {
     cursor: pointer;
-    color: red;
+    color: rgb(156, 156, 223);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -85,7 +86,7 @@
 
 .cart-items-add:hover {
     transform: translateY(10px);
-    background-color: red;
+    background-color: rgb(156, 156, 223);
     color: white;
     transition: 1s;
 }
@@ -96,7 +97,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    color: green;
+    color: rgb(156, 156, 223);
     background-color: white;
     font-size: 40px;
     padding: 2px;
@@ -106,7 +107,10 @@
 
 .cart-items-remove:hover {
     transform: translateY(10px);
-    background-color: green;
+    background-color: #b8bcec;
     color: white;
     transition: 1s;
+}
+div.cart-items-price {
+    color: #5a5d88;
 }

@@ -5,14 +5,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
+
 
 .slider {
     width: 500px;
     height: 300px;
     border-radius: 15px;
     overflow: hidden;
-    border: 5px solid royalblue;
+    border: 5px solid #5d5a88;
 }
 
 .slides {
@@ -32,7 +34,7 @@
 }
 
 .slide img {
-    width: 500px;
+   width: 500px ;
     height: 300px;
 }
 
@@ -46,7 +48,7 @@
 }
 
 .navigation-auto div {
-    border: 2px solid royalblue;
+    border: 2px solid #5d5a88;
     padding: 5px;
     margin: 5px;
     border-radius: 15px;
@@ -92,7 +94,7 @@
 }
 
 .manual-btn {
-    border: 2px solid royalblue;
+    border: 2px solid #5d5a88;
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
@@ -105,7 +107,7 @@
 }
 
 .manual-btn:hover {
-    background: royalblue;
+    background: #5d5a88;
     transform: scale(1.8);
 }
 

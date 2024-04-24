@@ -4,6 +4,7 @@ import Data from "./Data";
 import Header from "./Header";
 import {BrowserRouter as Router} from "react-router-dom";
 import Directions from "./Directions";
+import { Footer } from "./Footer";
 const App = () => {
   const {productItems}=Data;
   const [cartItems,setCartItems] = useState([]);
@@ -33,12 +34,14 @@ const App = () => {
       <Router>
         <Header cartItems={cartItems}/>
         <Directions productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>
+        <Footer/>
       </Router>
     </div>
     )
 }
-//<Directions productItems={productItems}/>
-/*function App() {
+/*
+<Directions productItems={productItems}/>
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -57,6 +60,6 @@ const App = () => {
       </header>
     </div>
   );
-}*/
+} */
 
 export default App;

@@ -1,0 +1,33 @@
+.about img {
+    width: 800px;
+    height: 400px ;
+    
+    }
+    .about {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .about img {
+        padding-bottom: 40px ;
+    }
+    .about .clinic h2 {
+        padding-top: 30px ;
+    }
+    
+    div.history {
+        display: flex;
+        width: 800px ;
+        margin: 0 auto ;
+        text-align: left;
+        gap: 60px ;
+        
+    }
+     .about h2 , strong {
+        margin: 60px 0px  ;
+    }
+    
+    div.about .history {
+        padding-bottom: 80px ;
+    }
+    

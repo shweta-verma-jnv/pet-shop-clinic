@@ -1,13 +1,5 @@
-.mobile {
-    margin: -10px 0px;
-}
 
-.mobile:hover {
-    animation-name: rotate;
-    animation-duration: 0.5s;
-}
-
-@keyframes rotate {
+/*@keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
@@ -34,41 +26,50 @@ sup {
     line-height: 15px;
     padding: 2px;
     margin: 0px 5px;
-}
+}*/
 
 .header {
     position: sticky;
     top: 0;
-    min-height: 80px;
-    width: 80%;
+    min-height: 20px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    background-color: royalblue;
+    background-color:#5d5a88;
     z-index: 3;
     border: 2px solid black;
+    height: 60px;
+    
 }
+
 
 .logo {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 32px;
+    font-size: 28px;
     padding-left: 20px;
     cursor: default;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
 }
 
 .header-links {
     display: flex;
+    align-items: center;
 }
 
 .header-links ul li {
     list-style: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
     padding-right: 20px;
     text-transform: uppercase;
 }
@@ -79,9 +80,9 @@ sup {
 }
 
 .header-links ul li a:hover {
-    color: yellow;
+    color: rgb(182, 182, 238);
 }
 
 .header-links ul li a:hover sup {
-    border: 2px gold solid;
+    border: 2px rgb(182, 182, 238);
 }

@@ -1,0 +1,98 @@
+footer {
+    background-color: #5a5d88;
+    color:#ffffff;
+    
+}
+.footer-content {
+    display: flex;
+    
+}
+.other-nav .main-container ul li {
+    height: 32px;
+   max-width: 100%;
+   margin: 10px 0px;
+    display: inline-block;
+}
+
+footer .container {
+    max-width: 100%;
+    text-align: left;
+    margin-inline:  0 auto;
+}
+
+footer .sub-container ul li a {
+    text-decoration: none;
+}
+.sub-container ul {
+    padding: 0px;
+} 
+
+.other-nav .main-container ul li {
+    margin :0px 40px ;
+    padding: 24px 0px;
+}
+ footer .container .other-container p {
+    margin: 10px 0px ;
+ }
+ .sub-container ul li a  {
+    
+  
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #ffffff;
+   
+ }
+ .sub-container ul li h4 a {
+    color :#5D5A88;
+    
+ }
+
+
+ footer .container .other-container ul li a  {
+    padding : opx 0px ; 
+ }
+
+.outerFooter{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    column-count: 4;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    
+}
+.sub-container ul li  {
+    list-style-type: none;
+}
+
+.other-container ul {
+    display: flex;
+    gap: 5px;
+   
+}
+
+.other-container {
+    padding-left: 50px;
+}
+
+.container  a img {
+    text-decoration: none ;
+}
+.container .sub-container  ul li a img {
+    width: 30px;
+    height: 30px ;
+}
+.container .sub-container a img {
+    width: 60px;
+    height: 60px;
+}
+
+.container .sub-container ul li a:hover {
+    color: rgb(182, 182, 238);
+}
+
+.container  .lower p {
+    text-align: center;
+   padding: 30px 0px;
+}

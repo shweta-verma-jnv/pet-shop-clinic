@@ -5,10 +5,9 @@ form {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    width: 80%;
-    border: 2px solid black;
+    width: 100%;
     border-radius: 25px;
-    border: 5px gold solid;
+    border: 5px solid #5a5d88;
     background-image: url(https://as2.ftcdn.net/v2/jpg/01/01/53/39/1000_F_101533955_pKjKrjl0g9I4Y6y51GfY70ftAx14q7iV.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -21,12 +20,12 @@ input {
     font-size: 20px;
     border-radius: 15px;
     text-align: center;
-    border: 5px solid gold;
+    border: 5px solid #5a5d88;
 }
 
 button {
     font-size: 18px;
-    background-color: rgb(223, 222, 218);
+    background-color: #5a5d88;
     color: white;
     cursor: pointer;
     text-transform: uppercase;
@@ -40,12 +39,12 @@ button {
 button:hover {
     transform: translateY(5px);
     transition: 1s;
-    background-color: #5a5d88;
+    background-color: #5a5dcc;
 }
 
 label {
     font-size: 20px;
-    color: rgb(187, 180, 141);
+    color: #5a5d88;
     font-weight: bold;
     font-family: Verdana;
     margin: 5px;
